@@ -125,14 +125,17 @@ const DateRangePicker = ({
 							<span>{displayLabel}</span>
 						</Button>
 						{selectedRange?.from && selectedRange?.to && (
-							<X
-								className='ml-2 h-4 w-4 absolute right-2 top-[12px] cursor-pointer'
+							<button
+								type='button'
+								aria-label='Clear date range'
+								className='absolute right-2 top-[10px] rounded-sm p-0.5 text-muted-foreground hover:bg-muted hover:text-foreground'
 								onClick={(e) => {
 									e.stopPropagation();
 									setSelectedRange(undefined);
 									onChange({ startDate: undefined, endDate: undefined });
-								}}
-							/>
+								}}>
+								<X className='h-4 w-4' />
+							</button>
 						)}
 					</div>
 				</div>
