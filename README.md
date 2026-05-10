@@ -1,3 +1,141 @@
+## Frontend Assignment Additions
+
+# FlexPrice Frontend Assignment
+
+A reusable SaaS billing UI component system built with React, TypeScript, Vite, TailwindCSS, Storybook, and TanStack libraries.
+
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
+- TailwindCSS
+- Storybook
+- Vitest
+- React Testing Library
+- TanStack React Virtual
+
+---
+
+# Implemented Components
+
+## Atoms
+- Button
+- Input
+- Chip
+- Spinner
+- Tooltip
+- Select
+- DateRangePicker
+
+## Molecules
+- MetricCard
+- InvoiceStatusBadge
+- MeterProgress
+- SearchBar
+- DataTable
+
+## Organisms
+- EmptyState
+- PricingTierTable
+- SidebarNav
+
+---
+
+# Features
+
+## Storybook Documentation
+Each component includes:
+- Variants
+- Controls
+- Interaction tests
+- Responsive previews
+
+## DataTable Features
+- Sorting
+- Pagination
+- Empty states
+- Loading states
+- Virtualized rendering
+- 10,000-row virtualization demo
+
+## Testing
+Implemented:
+- Utility tests using Vitest
+- Component render tests using React Testing Library
+
+---
+
+# Advanced Challenge Completed
+
+## Challenge B — Virtualized List
+Implemented virtualization using:
+
+- `@tanstack/react-virtual`
+
+Supports:
+- Smooth scrolling
+- Overscan rendering
+- Large datasets
+- Configurable row heights
+
+---
+
+# Running Locally
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run Storybook:
+
+```bash
+npm run storybook
+```
+
+Build Storybook:
+
+```bash
+npm run build-storybook
+```
+
+Run tests:
+
+```bash
+npm run test
+```
+
+---
+
+# Project Structure
+
+```txt
+src/
+ ├── components/
+ │    ├── atoms/
+ │    ├── molecules/
+ │    └── organisms/
+ │
+ ├── tests/
+ │
+ └── utils/
+```
+
+---
+
+# Notes
+
+- Components are designed for reusable SaaS billing workflows.
+- Focus was placed on scalability, composability, and Storybook-driven development.
+- The DataTable virtualization demo was added as the primary advanced challenge differentiator.
+
+
+
+
+
+
 <div align="center">
   <img src="./assets/flexprice_logo.png" height="120" alt="Flexprice Logo"/>
   
